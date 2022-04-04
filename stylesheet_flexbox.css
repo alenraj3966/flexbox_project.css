@@ -309,3 +309,53 @@ img{
     float: right;
     margin-right: 30px;
 }
+
+
+@media only screen and (max-width:576px){
+    .top-banner{
+        display: block;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .logo{
+        width: 100%;
+
+    }
+    .nav-menu{
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-left: 0px;
+        margin-bottom: 50px;
+
+    }
+    .mid-div1{
+        display: block;
+        height: auto;
+    }
+    .overlap{
+        width: 100%;
+        display: block;
+        height: auto;
+        background-color: none;
+        padding-right: 20px;
+    }
+    .afteroverlap{
+        height: auto;
+        width: 100%;
+    }
+    .text1{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        border: none;
+    }
+    .text2{
+        width: 100%;
+    }
+    .photoshoot{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
